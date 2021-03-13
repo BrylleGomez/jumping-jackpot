@@ -1,0 +1,10 @@
+PhaseNumber.MainTaskNumber.MiniTaskNumber
+
+6.0.1 = No Observer Pattern, msg object modified
+6.1.0 = Observer Pattern implemented
+6.1.1 = Added remote change speed function (via System.in)
+6.1.2 = Template Pattern in progress
+6.2.0 = Template Pattern implemented
+6.2.1 = Added multiplier and score penalty on failure
+6.2.2 = Added basic sounds (point and gameover)
+6.3.0 = Strategy Pattern implemented
