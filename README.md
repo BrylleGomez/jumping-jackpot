@@ -29,4 +29,4 @@ An LED strip is used to display the "ring of lights" that the player will use as
 ### 3. Java Game Software
 The main game software runs in Java. It communicates with the accelerometer and LED strip using the Observer design pattern and changes the game difficulty (LED speed) using the Template and Strategy design patterns.
 
-For more information, please refer to the in-depth [code description](./Jumping Jackpot In-Depth Code Description.docx).
+For more information, please refer to the in-depth [code description](../blob/master/Jumping%20Jackpot%20In-Depth%20Code%20Description.docx).
