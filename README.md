@@ -12,7 +12,7 @@ Jumping Jackpot is an interactive game developed by myself, Mueez Khan, and Amal
 An Arduino Lilypad is used powered a battery pack (of 3 AA's to provide 4.5V of power). This choice of hardware is made with mobility in consideration, as the Lilypad and its components are perfect for applications that require a lot of movement (such as jumping). An accelerometer is attached to detect a "jump" (which is sent to a computer via the Lilypad Zigbee chip), and is calibrated by recording the specific pattern of vertical "y" acceleration that results whenever a player jumps, as seen in the below code:
 
 ```
-if (acmVal > 750) {               //acmVal > 700 indicates a "jump"
+if (acmVal > 750) {               //acmVal > 750 indicates a "jump"
     sendMessage(ID, JUMPED);
     delay(325);
     while(acmVal > 610 && acmVal < 604);
